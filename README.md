@@ -2,7 +2,7 @@
 
 ## Pros
 
-✅ Structure Folder Created (Layouts, Pages, etc).
+✅ Structure Folder Created (Layouts, Pages, etc).<br/>
 ✅ Modules Include
 
 ### Module List:

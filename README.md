@@ -1,4 +1,16 @@
-# Nuxt 3 Minimal Starter
+# Nuxt 3 Complete Starter
+
+## Pros
+
+✅ Structure Folder Created (Layouts, Pages, etc).
+✅ Modules Include
+
+### Module List:
+
+* **[Tailwind CSS](https://nuxt.com/modules/tailwindcss)**
+* **[Nuxt Color Mode](https://nuxt.com/modules/color-mode)**
+* **[Icon](https://nuxt.com/modules/icon)**
+* **[Vite PWA](https://nuxt.com/modules/vite-pwa-nuxt)**
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 

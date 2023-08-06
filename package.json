@@ -1,5 +1,5 @@
 {
-  "name": "create-nuxt-complete",
+  "name": "@devdewa/create-nuxt-complete",
   "description": "Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.",
   "version": "1.0.0",
   "scripts": {

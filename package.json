@@ -1,5 +1,7 @@
 {
-  "name": "nuxt-app",
+  "name": "create-nuxt-complete",
+  "description": "Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "build": "nuxt build",
@@ -16,5 +18,20 @@
     "@vite-pwa/nuxt": "^0.1.0",
     "nuxt": "^3.6.5",
     "nuxt-icon": "^0.4.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/devdewa/create-nuxt-complete.git"
+  },
+  "keywords": [
+    "Create",
+    "Nuxt",
+    "Complete"
+  ],
+  "author": "Adityawarman Dewa Putra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devdewa/create-nuxt-complete/issues"
+  },
+  "homepage": "https://github.com/devdewa/create-nuxt-complete#readme"
 }

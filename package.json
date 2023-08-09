@@ -32,5 +32,12 @@
   "bugs": {
     "url": "https://github.com/devdewa/create-nuxt-complete/issues"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devdewa/create-nuxt-complete"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "homepage": "https://github.com/devdewa/create-nuxt-complete#readme"
 }

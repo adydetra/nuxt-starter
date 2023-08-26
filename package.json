@@ -15,12 +15,12 @@
     "@nuxtjs/tailwindcss": "^6.8.0",
     "@types/node": "^18.17.1",
     "@vite-pwa/nuxt": "^0.1.0",
-    "nuxt": "^3.6.5",
+    "nuxt": "^3.7.0",
     "nuxt-icon": "^0.4.2"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/devdewa/create-nuxt-complete.git"
+    "url": "https://github.com/devdewa/create-nuxt-complete"
   },
   "keywords": [
     "Create",
@@ -31,10 +31,6 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/devdewa/create-nuxt-complete/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/devdewa/create-nuxt-complete"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"

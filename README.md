@@ -8,7 +8,7 @@ This Nuxt 3 Starter is a robust foundation for web development projects. It prov
 
 ✅ Easy to use\
 ✅ Atomic Design\
-✅ Modules Include\
+✅ Modules Include
 
 ### Module Included:
 

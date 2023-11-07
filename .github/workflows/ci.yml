@@ -23,6 +23,9 @@ jobs:
       - name: 📦 Install dependencies
         run: pnpm install
 
+      - name: ⚙ Install dependencies
+        run: pnpm update --latest
+
   test:
     runs-on: ubuntu-latest
 

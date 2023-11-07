@@ -29,9 +29,14 @@ cd nuxt-starter
 Install package manager
 
 ```bash
-npm install
+pnpm install
+```
+
+if you don't use `pnpm` just remove `pnpm-lock.yaml` to another package manager like:
+
+```bash
+# npm install
 # yarn install
-# pnpm install
 # bun install
 ```
 

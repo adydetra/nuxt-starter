@@ -23,7 +23,7 @@ jobs:
       - name: 📦 Install dependencies
         run: pnpm install
 
-      - name: ⚙ Install dependencies
+      - name: ⚙ Update dependencies
         run: pnpm update --latest
 
   test:
@@ -39,6 +39,9 @@ jobs:
 
       - name: 📦 Install dependencies
         run: pnpm install
+
+      - name: ⚙ Update dependencies
+        run: pnpm update --latest
 
       - name: 🛠 Build project
         run: pnpm build

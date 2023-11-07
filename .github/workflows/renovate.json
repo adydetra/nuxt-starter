@@ -10,5 +10,9 @@
       ],
       "automerge": true
     }
+  ],
+  "timezone": "Asia/Jakarta",
+  "schedule": [
+    "before 1am"
   ]
 }

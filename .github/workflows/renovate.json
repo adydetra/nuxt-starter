@@ -1,18 +1,10 @@
 {
-  "extends": [
-    "config:base"
-  ],
+  "extends": ["config:base"],
   "packageRules": [
     {
-      "updateTypes": [
-        "minor",
-        "patch"
-      ],
+      "updateTypes": ["major", "minor", "patch"],
       "automerge": true
     }
   ],
-  "timezone": "Asia/Jakarta",
-  "schedule": [
-    "before 1am"
-  ]
+  "platformAutomerge": true
 }

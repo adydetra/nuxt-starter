@@ -18,8 +18,8 @@ devDependencies:
     specifier: ^20.9.0
     version: 20.9.0
   '@vite-pwa/nuxt':
-    specifier: ^0.1.1
-    version: 0.1.1(@nuxt/kit@3.8.0)(vite-plugin-pwa@0.16.6)
+    specifier: ^0.1.2
+    version: 0.1.2(@nuxt/kit@3.8.1)(vite-plugin-pwa@0.16.6)
   nuxt:
     specifier: ^3.8.0
     version: 3.8.0(@types/node@20.9.0)(rollup@2.79.1)(vite@4.5.0)
@@ -2842,13 +2842,13 @@ packages:
       - supports-color
     dev: true
 
-  /@vite-pwa/nuxt@0.1.1(@nuxt/kit@3.8.0)(vite-plugin-pwa@0.16.6):
-    resolution: {integrity: sha512-wrIeo8ATGc3Nny+MiK/KSklRer22TKrAlRnkqszdM2r+0mHQ3FDQQGZdt/MFu1V/F4TEcacrx2NiU/MYVRV86A==}
+  /@vite-pwa/nuxt@0.1.2(@nuxt/kit@3.8.1)(vite-plugin-pwa@0.16.6):
+    resolution: {integrity: sha512-y+DxNJbV5VyCTrCrjCgpFKubkWeoqMr0LkCsUdgR/6B4KXJLXTqCcrEm4I5WyGL0Cbhb8Swv+Q7sH+1TxZ1EBA==}
     peerDependencies:
       '@nuxt/kit': ^3.5.3
       vite-plugin-pwa: '>=0.16.5 <1'
     dependencies:
-      '@nuxt/kit': 3.8.0(rollup@2.79.1)
+      '@nuxt/kit': 3.8.1(rollup@2.79.1)
       vite-plugin-pwa: 0.16.6(vite@4.5.0)(workbox-build@7.0.0)(workbox-window@7.0.0)
     dev: true
 

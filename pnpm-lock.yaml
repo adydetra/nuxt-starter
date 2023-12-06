@@ -24,8 +24,8 @@ devDependencies:
     specifier: ^3.8.0
     version: 3.8.0(@types/node@20.10.3)(rollup@2.79.1)(vite@4.5.0)
   nuxt-icon:
-    specifier: ^0.6.6
-    version: 0.6.6(nuxt@3.8.0)(rollup@2.79.1)(vite@4.5.0)(vue@3.3.7)
+    specifier: ^0.6.7
+    version: 0.6.7(nuxt@3.8.0)(rollup@2.79.1)(vite@4.5.0)(vue@3.3.7)
 
 packages:
 
@@ -1715,8 +1715,8 @@ packages:
     engines: {node: '>=14'}
     dev: true
 
-  /@iconify/collections@1.0.356:
-    resolution: {integrity: sha512-aisir83gheS3FLZnSh7oK+avzLRBboFfsgDaowYVlLHgoQkg77u7Vj2HjwPwywVbrXUCx25fBzLJOuocqUoc2w==}
+  /@iconify/collections@1.0.366:
+    resolution: {integrity: sha512-xILFf0SeEPYTreD0oLVq+dXiZYIQeErlkIkxwQCRu49RXnMIYrRq+GzCGliZ6fUK3wonPJAAUX3aLOHgdcZvVQ==}
     dependencies:
       '@iconify/types': 2.0.0
     dev: true
@@ -1962,8 +1962,8 @@ packages:
       - supports-color
     dev: true
 
-  /@nuxt/devtools-kit@1.0.2(nuxt@3.8.0)(rollup@2.79.1)(vite@4.5.0):
-    resolution: {integrity: sha512-iFi54NNCcPsF/jW14HbRlq3aOClOWdfiein0CvKoQ5shobHgn1s3xULh8o9QPKI2oTarcuJL+EFIK43CwfoXyw==}
+  /@nuxt/devtools-kit@1.0.4(nuxt@3.8.0)(rollup@2.79.1)(vite@4.5.0):
+    resolution: {integrity: sha512-AXNeI1dBilNryCmwuTd3lU7CrPBhzUJ5ntTFiXw9MmFwe5QT3NOxDFOv0gX7z1DFnmBEmx5mPKWysCwh7htEnQ==}
     peerDependencies:
       nuxt: ^3.8.1
       vite: '*'
@@ -6196,13 +6196,13 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /nuxt-icon@0.6.6(nuxt@3.8.0)(rollup@2.79.1)(vite@4.5.0)(vue@3.3.7):
-    resolution: {integrity: sha512-rTRUIjYVlYAyj6ZPVVwGxyyiINNudhC6r9vF96Ec5ZaLOC6mSdUBnJ3oV6sJgViYrIkDLwbIjviFvRcZzvgu3g==}
+  /nuxt-icon@0.6.7(nuxt@3.8.0)(rollup@2.79.1)(vite@4.5.0)(vue@3.3.7):
+    resolution: {integrity: sha512-0QnQM0yqJCb8PWt+gAn6RiXy1/CHScFuOPbsfIIwHMvyKkea+blj5/unq7F9ZHMkfrHozyCID8ErFPSzwEYLeA==}
     dependencies:
-      '@iconify/collections': 1.0.356
+      '@iconify/collections': 1.0.366
       '@iconify/vue': 4.1.1(vue@3.3.7)
-      '@nuxt/devtools-kit': 1.0.2(nuxt@3.8.0)(rollup@2.79.1)(vite@4.5.0)
-      '@nuxt/kit': 3.8.1(rollup@2.79.1)
+      '@nuxt/devtools-kit': 1.0.4(nuxt@3.8.0)(rollup@2.79.1)(vite@4.5.0)
+      '@nuxt/kit': 3.8.2(rollup@2.79.1)
     transitivePeerDependencies:
       - nuxt
       - rollup

@@ -18,8 +18,8 @@ devDependencies:
     specifier: ^20.10.4
     version: 20.10.4
   '@vite-pwa/nuxt':
-    specifier: ^0.3.4
-    version: 0.3.4(rollup@2.79.1)(vite@4.5.0)(workbox-build@7.0.0)(workbox-window@7.0.0)
+    specifier: ^0.3.5
+    version: 0.3.5(rollup@2.79.1)(vite@4.5.0)(workbox-build@7.0.0)(workbox-window@7.0.0)
   nuxt:
     specifier: ^3.8.0
     version: 3.8.0(@types/node@20.10.4)(rollup@2.79.1)(vite@4.5.0)
@@ -2790,12 +2790,6 @@ packages:
       '@types/node': 20.10.4
     dev: true
 
-  /@types/node@20.10.3:
-    resolution: {integrity: sha512-XJavIpZqiXID5Yxnxv3RUDKTN5b81ddNC3ecsA0SoFXz/QU8OGBwZGMomiq0zw+uuqbL/krztv/DINAQ/EV4gg==}
-    dependencies:
-      undici-types: 5.26.5
-    dev: true
-
   /@types/node@20.10.4:
     resolution: {integrity: sha512-D08YG6rr8X90YB56tSIuBaddy/UXAA9RKJoFvrsnogAum/0pmjkgi4+2nx96A330FmioegBWmEYQ+syqCFaveg==}
     dependencies:
@@ -2805,7 +2799,7 @@ packages:
   /@types/resolve@1.17.1:
     resolution: {integrity: sha512-yy7HuzQhj0dhGpD8RLXSZWEkLsV9ibvxvi6EiJ3bkqLAO1RGo0WbkWQiwpRlSFymTJRz0d3k5LM3kkx8ArDbLw==}
     dependencies:
-      '@types/node': 20.10.3
+      '@types/node': 20.10.4
     dev: true
 
   /@types/resolve@1.20.2:
@@ -2876,8 +2870,8 @@ packages:
       - supports-color
     dev: true
 
-  /@vite-pwa/nuxt@0.3.4(rollup@2.79.1)(vite@4.5.0)(workbox-build@7.0.0)(workbox-window@7.0.0):
-    resolution: {integrity: sha512-yM5MlFn6SFfkorhqkNamFpHApP8so7TujbWwFyW+f8JC3yRAsIVNeBs8PA+zy2jQWfS7ouc9/5meuCU8Td30Hg==}
+  /@vite-pwa/nuxt@0.3.5(rollup@2.79.1)(vite@4.5.0)(workbox-build@7.0.0)(workbox-window@7.0.0):
+    resolution: {integrity: sha512-ighafr2qyLCRu6SS2+z2NYg/UWAVEJVetJTid8EQr3KgIrDCCfgfJKc3EEaiT7OF0M3/oppDcguemHkaKwfNEQ==}
     dependencies:
       '@nuxt/kit': 3.8.2(rollup@2.79.1)
       pathe: 1.1.1
@@ -5322,7 +5316,7 @@ packages:
     resolution: {integrity: sha512-KWYVV1c4i+jbMpaBC+U++4Va0cp8OisU185o73T1vo99hqi7w8tSJfUXYswwqqrjzwxa6KpRK54WhPvwf5w6PQ==}
     engines: {node: '>= 10.13.0'}
     dependencies:
-      '@types/node': 20.10.3
+      '@types/node': 20.10.4
       merge-stream: 2.0.0
       supports-color: 7.2.0
     dev: true

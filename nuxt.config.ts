@@ -1,4 +1,3 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   app: {
     head: {
@@ -11,15 +10,14 @@ export default defineNuxtConfig({
   },
 
   modules: [
-    "@nuxtjs/tailwindcss",
     "@nuxtjs/color-mode",
-    "nuxt-icon",
+    "@nuxtjs/tailwindcss",
     "@vite-pwa/nuxt",
+    "nuxt-icon",
   ],
 
   devtools: { enabled: true },
 
-  /* Color Mode */
   colorMode: {
     classSuffix: "",
     preference: "dark",

@@ -18,8 +18,8 @@ devDependencies:
     specifier: ^20.10.5
     version: 20.10.5
   '@vite-pwa/nuxt':
-    specifier: ^0.3.6
-    version: 0.3.6(rollup@2.79.1)(vite@5.0.10)(workbox-build@7.0.0)(workbox-window@7.0.0)
+    specifier: ^0.4.0
+    version: 0.4.0(rollup@2.79.1)(vite@5.0.10)(workbox-build@7.0.0)(workbox-window@7.0.0)
   nuxt:
     specifier: ^3.9.0
     version: 3.9.0(@types/node@20.10.5)(rollup@2.79.1)(vite@5.0.10)
@@ -2134,6 +2134,7 @@ packages:
     dependencies:
       is-glob: 4.0.3
       micromatch: 4.0.5
+      napi-wasm: 1.1.0
     dev: true
     bundledDependencies:
       - napi-wasm
@@ -2687,8 +2688,8 @@ packages:
       - supports-color
     dev: true
 
-  /@vite-pwa/nuxt@0.3.6(rollup@2.79.1)(vite@5.0.10)(workbox-build@7.0.0)(workbox-window@7.0.0):
-    resolution: {integrity: sha512-EEBiSUF0pbcFTLK8KpbkVb0YVNe9MKOHmaKE3siUJoeB5TZmCN8QqqPk9F5BsBEciy1JrxFtjCoZldLdxO2+0Q==}
+  /@vite-pwa/nuxt@0.4.0(rollup@2.79.1)(vite@5.0.10)(workbox-build@7.0.0)(workbox-window@7.0.0):
+    resolution: {integrity: sha512-/8Nb/XI/lcCR8jmsbLmzheiMWJeOzHUMIWmcwsyQB8DtqjB5NaRAz8QBwSs1sx/sALJmKCYrbpMWppItYYYrBA==}
     dependencies:
       '@nuxt/kit': 3.9.0(rollup@2.79.1)
       pathe: 1.1.1
@@ -5602,6 +5603,10 @@ packages:
     resolution: {integrity: sha512-7ZtY5KTCNheRGfEFxnedV5zFiORN1+Y1N6zvPTnHQd8ENUvfaDBeuJDZb2bN/oXwXxu3qkTXDzy57W5vAmDTBw==}
     engines: {node: ^14 || ^16 || >=18}
     hasBin: true
+    dev: true
+
+  /napi-wasm@1.1.0:
+    resolution: {integrity: sha512-lHwIAJbmLSjF9VDRm9GoVOy9AGp3aIvkjv+Kvz9h16QR3uSVYH78PNQUnT2U4X53mhlnV2M7wrhibQ3GHicDmg==}
     dev: true
 
   /negotiator@0.6.3:

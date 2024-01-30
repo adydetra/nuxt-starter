@@ -12,8 +12,8 @@ devDependencies:
     specifier: ^3.3.2
     version: 3.3.2(rollup@2.79.1)
   '@nuxtjs/tailwindcss':
-    specifier: ^6.11.1
-    version: 6.11.1(rollup@2.79.1)
+    specifier: ^6.11.2
+    version: 6.11.2(rollup@2.79.1)
   '@types/node':
     specifier: ^20.11.10
     version: 20.11.10
@@ -2111,8 +2111,8 @@ packages:
       - supports-color
     dev: true
 
-  /@nuxtjs/tailwindcss@6.11.1(rollup@2.79.1):
-    resolution: {integrity: sha512-6VY4Y6Ntjqx9cw9biBYOjKEhg3M0VFy1FqOAu1CCfdJr26p8XBztaiHS538Zy2nKEqH7MP/Jpi2+8RgfO2m+pA==}
+  /@nuxtjs/tailwindcss@6.11.2(rollup@2.79.1):
+    resolution: {integrity: sha512-06e8t9ia6Ru/RPMATuhGwi16rMYeZPseXiI4QmRDk/IkvluU60GxhLZOjdUIa+U7DVCECgDsRNEo/rD8/1sMKQ==}
     dependencies:
       '@nuxt/kit': 3.9.3(rollup@2.79.1)
       autoprefixer: 10.4.17(postcss@8.4.33)
@@ -2703,16 +2703,10 @@ packages:
       undici-types: 5.26.5
     dev: true
 
-  /@types/node@20.11.7:
-    resolution: {integrity: sha512-GPmeN1C3XAyV5uybAf4cMLWT9fDWcmQhZVtMFu7OR32WjrqGG+Wnk2V1d0bmtUyE/Zy1QJ9BxyiTih9z8Oks8A==}
-    dependencies:
-      undici-types: 5.26.5
-    dev: true
-
   /@types/resolve@1.17.1:
     resolution: {integrity: sha512-yy7HuzQhj0dhGpD8RLXSZWEkLsV9ibvxvi6EiJ3bkqLAO1RGo0WbkWQiwpRlSFymTJRz0d3k5LM3kkx8ArDbLw==}
     dependencies:
-      '@types/node': 20.11.7
+      '@types/node': 20.11.10
     dev: true
 
   /@types/resolve@1.20.2:
@@ -5131,7 +5125,7 @@ packages:
     resolution: {integrity: sha512-KWYVV1c4i+jbMpaBC+U++4Va0cp8OisU185o73T1vo99hqi7w8tSJfUXYswwqqrjzwxa6KpRK54WhPvwf5w6PQ==}
     engines: {node: '>= 10.13.0'}
     dependencies:
-      '@types/node': 20.11.7
+      '@types/node': 20.11.10
       merge-stream: 2.0.0
       supports-color: 7.2.0
     dev: true

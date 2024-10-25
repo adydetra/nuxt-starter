@@ -1,26 +1,10 @@
 {
-  "name": "@devdewa/create-nuxt-complete",
+  "name": "@adydetra/nuxt-starter",
   "description": "Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.",
   "version": "1.0.1",
-  "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
-  },
-  "devDependencies": {
-    "@nuxt/devtools": "^1.0.8",
-    "@nuxtjs/color-mode": "^3.3.2",
-    "@nuxtjs/tailwindcss": "^6.11.4",
-    "@types/node": "^20.11.21",
-    "@vite-pwa/nuxt": "^0.5.0",
-    "nuxt": "^3.10.3",
-    "nuxt-icon": "^0.6.8"
-  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/devdewa/create-nuxt-complete"
+    "url": "https://github.com/adydetra/nuxt-starter"
   },
   "keywords": [
     "Create",
@@ -30,10 +14,26 @@
   "author": "Adityawarman Dewa Putra",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/devdewa/create-nuxt-complete/issues"
+    "url": "https://github.com/adydetra/nuxt-starter/issues"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
-  "homepage": "https://github.com/devdewa/create-nuxt-complete#readme"
+  "homepage": "https://github.com/adydetra/nuxt-starter#readme",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "^1.6.0",
+    "@nuxt/icon": "^1.5.7",
+    "@nuxtjs/color-mode": "^3.5.2",
+    "@nuxtjs/tailwindcss": "^6.12.2",
+    "@types/node": "^22.7.9",
+    "@vite-pwa/nuxt": "^0.10.5",
+    "nuxt": "^3.13.2"
+  }
 }

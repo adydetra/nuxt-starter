@@ -8,12 +8,11 @@ export default defineNuxtConfig({
       },
     },
   },
-
   modules: [
+    "@nuxt/icon",
     "@nuxtjs/color-mode",
     "@nuxtjs/tailwindcss",
     "@vite-pwa/nuxt",
-    "nuxt-icon",
   ],
 
   devtools: { enabled: true },

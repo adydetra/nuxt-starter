@@ -1,7 +1,10 @@
 {
   "name": "@adydetra/nuxt-starter",
+  "author": "Adityawarman Dewa Putra",
   "description": "Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.",
   "version": "1.0.1",
+  "license": "ISC",
+  "homepage": "https://github.com/adydetra/nuxt-starter#readme",
   "repository": {
     "type": "git",
     "url": "https://github.com/adydetra/nuxt-starter"
@@ -11,15 +14,12 @@
     "Nuxt",
     "Complete"
   ],
-  "author": "Adityawarman Dewa Putra",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/adydetra/nuxt-starter/issues"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
-  "homepage": "https://github.com/adydetra/nuxt-starter#readme",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",

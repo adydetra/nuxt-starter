@@ -32,13 +32,13 @@ cd nuxt-starter
 Install package manager
 
 ```bash
-pnpm install
+bun install
 ```
 
 ---
 
 > [!NOTE]
-> if not using `pnpm` just delete `pnpm-lock.yaml`, and switch to another package manager like:
+> if not using `bun` just delete `bun-lock.yaml`, and switch to another package manager like:
 
 ```bash
 # npm install

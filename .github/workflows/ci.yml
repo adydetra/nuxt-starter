@@ -19,13 +19,13 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: "pnpm"
+          cache: "bun"
 
       - name: 📦 Install dependencies
-        run: pnpm install
+        run: bun install
         
       - name: 🛠 Build project
-        run: pnpm build
+        run: bun build
 
       - name: 🟩 Coverage
         uses: codecov/codecov-action@v3

@@ -77,4 +77,6 @@ export default defineNuxtConfig({
   //     type: 'module',
   //   },
   // },
+
+  compatibilityDate: '2025-07-11'
 });

@@ -43,5 +43,5 @@ bun install
 ```bash
 # npm install
 # yarn install
-# bun install
+# pnpm install
 ```

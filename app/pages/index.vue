@@ -1,5 +1,5 @@
 <template>
   <section>
-    <MoleculesExample/>
+    <MoleculesTheExample/>
   </section>
 </template>

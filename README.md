@@ -29,7 +29,7 @@ git clone https://github.com/adydetra/nuxt-starter.git
 cd nuxt-starter
 ```
 
-Install package manager
+Install depedencies
 
 ```bash
 bun install

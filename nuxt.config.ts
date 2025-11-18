@@ -1,23 +1,23 @@
-import tailwindcss from "@tailwindcss/vite";
+import tailwindcss from '@tailwindcss/vite';
 
 export default defineNuxtConfig({
   app: {
     head: {
-      charset: "utf-8",
-      viewport: "width=device-width, initial-scale=1",
+      charset: 'utf-8',
+      viewport: 'width=device-width, initial-scale=1',
       htmlAttrs: {
-        lang: "en",
+        lang: 'en',
       },
     },
   },
   modules: [
-    "@nuxt/icon",
-    "@nuxtjs/color-mode",
+    '@nuxt/icon',
+    '@nuxtjs/color-mode',
   ],
 
   colorMode: {
-    classSuffix: "",
-    preference: "dark",
+    classSuffix: '',
+    preference: 'dark',
   },
 
   css: ['./app/assets/css/main.css'],
@@ -29,7 +29,7 @@ export default defineNuxtConfig({
   },
 
   devtools: {
-    enabled: true
+    enabled: true,
   },
 
   compatibilityDate: '2025-07-11',

@@ -1,14 +1,9 @@
 {
   "name": "@adydetra/nuxt-starter",
-  "author": "Adityawarman Dewa Putra",
-  "description": "Look at the [Nuxt 4 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.",
   "version": "4.0.2",
+  "description": "Look at the [Nuxt 4 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.",
+  "author": "Adityawarman Dewa Putra",
   "license": "ISC",
-  "keywords": [
-    "Create",
-    "Nuxt",
-    "Complete"
-  ],
   "homepage": "https://github.com/adydetra/nuxt-starter#readme",
   "repository": {
     "type": "git",
@@ -17,22 +12,31 @@
   "bugs": {
     "url": "https://github.com/adydetra/nuxt-starter/issues"
   },
+  "keywords": [
+    "Create",
+    "Nuxt",
+    "Complete"
+  ],
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.17",
     "tailwindcss": "^4.1.17"
   },
   "devDependencies": {
+    "@antfu/eslint-config": "^6.2.0",
     "@iconify-json/line-md": "^1.2.11",
     "@nuxt/devtools": "^3.1.0",
     "@nuxt/icon": "^2.1.0",
     "@nuxtjs/color-mode": "^4.0.0",
+    "eslint": "^9.39.1",
     "nuxt": "^4.2.1"
   }
 }

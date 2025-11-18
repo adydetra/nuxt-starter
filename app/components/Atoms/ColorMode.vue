@@ -1,7 +1,7 @@
 <script setup lang="ts">
 type Theme = "light" | "dark";
 
-const size = "w-6 h-6";
+const size = "text-4xl";
 const setColorTheme = (newTheme: Theme) => {
   useColorMode().preference = newTheme;
 };

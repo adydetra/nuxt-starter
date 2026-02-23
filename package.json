@@ -26,8 +26,8 @@
     "lint:fix": "eslint --fix"
   },
   "dependencies": {
-    "@tailwindcss/vite": "^4.1.18",
-    "tailwindcss": "^4.1.18"
+    "@tailwindcss/vite": "^4.2.1",
+    "tailwindcss": "^4.2.1"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^7.4.3",
@@ -35,7 +35,7 @@
     "@nuxt/devtools": "^3.2.1",
     "@nuxt/icon": "^2.2.1",
     "@nuxtjs/color-mode": "^4.0.0",
-    "eslint": "^10.0.0",
+    "eslint": "^10.0.1",
     "nuxt": "^4.3.1"
   }
 }

@@ -26,16 +26,16 @@
     "lint:fix": "eslint --fix"
   },
   "dependencies": {
-    "@tailwindcss/vite": "^4.2.1",
-    "tailwindcss": "^4.2.1"
+    "@tailwindcss/vite": "^4.2.2",
+    "tailwindcss": "^4.2.2"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^7.7.2",
+    "@antfu/eslint-config": "^8.2.0",
     "@iconify-json/line-md": "^1.2.16",
-    "@nuxt/devtools": "^3.2.3",
+    "@nuxt/devtools": "^4.0.0-alpha.4",
     "@nuxt/icon": "^2.2.1",
     "@nuxtjs/color-mode": "^4.0.0",
-    "eslint": "^10.0.3",
+    "eslint": "^10.2.0",
     "nuxt": "^4.4.2"
   }
 }

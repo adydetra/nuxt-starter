@@ -10,6 +10,29 @@ This Nuxt 4 Starter is a robust foundation for web development projects. It prov
 - [x] [Nuxt Color Mode](https://nuxt.com/modules/color-mode)
 - [x] [Icon](https://nuxt.com/modules/icon)
 
+---
+
+## Project Structure
+
+```text
+├── app/
+│   ├── assets/
+│   │   └── css/
+│   ├── components/
+│   │   ├── Atoms/
+│   │   ├── molecules/
+│   │   └── organisms/
+│   ├── pages/
+│   └── app.vue
+├── docs/
+├── public/
+├── AGENTS.md
+├── nuxt.config.ts
+└── package.json
+```
+
+---
+
 ## Get Started
 
 Clone repository
@@ -34,25 +57,4 @@ bun install
 # npm install
 # yarn install
 # pnpm install
-```
-
----
-
-## Project Structure
-
-```text
-├── app/
-│   ├── assets/
-│   │   └── css/
-│   ├── components/
-│   │   ├── Atoms/
-│   │   ├── molecules/
-│   │   └── organisms/
-│   ├── pages/
-│   └── app.vue
-├── docs/
-├── public/
-├── AGENTS.md
-├── nuxt.config.ts
-└── package.json
 ```

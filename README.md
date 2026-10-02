@@ -35,3 +35,24 @@ bun install
 # yarn install
 # pnpm install
 ```
+
+---
+
+## Project Structure
+
+```text
+├── app/
+│   ├── assets/
+│   │   └── css/
+│   ├── components/
+│   │   ├── Atoms/
+│   │   ├── molecules/
+│   │   └── organisms/
+│   ├── pages/
+│   └── app.vue
+├── docs/
+├── public/
+├── AGENTS.md
+├── nuxt.config.ts
+└── package.json
+```

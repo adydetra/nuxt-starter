@@ -19,7 +19,7 @@ This Nuxt 4 Starter is a robust foundation for web development projects. It prov
 │   ├── assets/
 │   │   └── css/
 │   ├── components/
-│   │   ├── Atoms/
+│   │   ├── atoms/
 │   │   ├── molecules/
 │   │   └── organisms/
 │   ├── pages/

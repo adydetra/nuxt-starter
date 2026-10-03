@@ -12,7 +12,7 @@ app/
 ├── assets/
 │   └── css/main.css (Tailwind CSS v4 & custom styles)
 ├── components/
-│   ├── Atoms/ (Primitive components e.g. ColorMode.vue, SpotlightCard.vue)
+│   ├── atoms/ (Primitive components e.g. ColorMode.vue, SpotlightCard.vue)
 │   ├── molecules/ (Composite UI blocks e.g. TechStackCard.vue)
 │   └── organisms/ (Page sections e.g. TheExample.vue)
 └── pages/

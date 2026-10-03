@@ -1,6 +1,7 @@
 # Nuxt Starter ⚡️
 
 [![Nuxt](https://img.shields.io/badge/Nuxt-002E3B?logo=nuxt&logoColor=#00DC82)](https://nuxt.com)
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/adydetra/nuxt-starter)
 
 This Nuxt 4 Starter is a robust foundation for web development projects. It provides a wide array of features and modules to streamline your development process. Whether you're a beginner or an experienced developer, this starter kit offers a user-friendly experience, a modular architecture, and an organized folder structure to enhance your workflow.
 

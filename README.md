@@ -5,7 +5,7 @@
 
 This Nuxt 4 Starter is a robust foundation for web development projects. It provides a wide array of features and modules to streamline your development process. Whether you're a beginner or an experienced developer, this starter kit offers a user-friendly experience, a modular architecture, and an organized folder structure to enhance your workflow.
 
-### Module Included:
+## Modules Included:
 
 - [x] [Tailwind CSS](https://tailwindcss.com/)
 - [x] [Nuxt Color Mode](https://nuxt.com/modules/color-mode)

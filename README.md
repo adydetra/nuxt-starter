@@ -1,6 +1,7 @@
 # Nuxt Starter ⚡️
 
 [![Nuxt](https://img.shields.io/badge/Nuxt-002E3B?logo=nuxt&logoColor=#00DC82)](https://nuxt.com)
+[![Open in StackBlitz](https://img.shields.io/badge/Open_in-StackBlitz-1389FD?logo=stackblitz&logoColor=white)](https://stackblitz.com/github/adydetra/nuxt-starter)
 
 This Nuxt 4 Starter is a robust foundation for web development projects. It provides a wide array of features and modules to streamline your development process. Whether you're a beginner or an experienced developer, this starter kit offers a user-friendly experience, a modular architecture, and an organized folder structure to enhance your workflow.
 
@@ -9,6 +10,29 @@ This Nuxt 4 Starter is a robust foundation for web development projects. It prov
 - [x] [Tailwind CSS](https://tailwindcss.com/)
 - [x] [Nuxt Color Mode](https://nuxt.com/modules/color-mode)
 - [x] [Icon](https://nuxt.com/modules/icon)
+
+---
+
+## Project Structure
+
+```text
+├── app/
+│   ├── assets/
+│   │   └── css/
+│   ├── components/
+│   │   ├── atoms/
+│   │   ├── molecules/
+│   │   └── organisms/
+│   ├── pages/
+│   └── app.vue
+├── docs/
+├── public/
+├── AGENTS.md
+├── nuxt.config.ts
+└── package.json
+```
+
+---
 
 ## Get Started
 

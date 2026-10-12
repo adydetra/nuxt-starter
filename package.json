@@ -3,6 +3,7 @@
   "description": "⚡️ Nuxt starter template built with Tailwind CSS, Nuxt Color Mode, and Icon",
   "author": "Adityawarman Dewa Putra",
   "license": "MIT",
+  "type": "module",
   "homepage": "https://github.com/adydetra/nuxt-starter#readme",
   "repository": {
     "type": "git",
@@ -22,8 +23,8 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "lint": "eslint",
-    "lint:fix": "eslint --fix"
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.3.3",
@@ -33,9 +34,9 @@
     "vue-router": "^5.4.0"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^9.5.1",
     "@iconify-json/line-md": "^1.2.16",
     "@nuxt/devtools": "^3.4.2",
+    "@nuxt/eslint": "^1.17.0",
     "@nuxt/icon": "^2.5.1",
     "@nuxtjs/color-mode": "^4.0.1",
     "eslint": "^10.12.0"

@@ -1,6 +1,16 @@
 import tailwindcss from '@tailwindcss/vite';
 
 export default defineNuxtConfig({
+  modules: [
+    '@nuxt/eslint',
+    '@nuxt/icon',
+    '@nuxtjs/color-mode',
+  ],
+
+  devtools: {
+    enabled: true,
+  },
+
   app: {
     head: {
       charset: 'utf-8',
@@ -10,17 +20,15 @@ export default defineNuxtConfig({
       },
     },
   },
-  modules: [
-    '@nuxt/icon',
-    '@nuxtjs/color-mode',
-  ],
+
+  css: ['~/assets/css/main.css'],
 
   colorMode: {
     classSuffix: '',
     preference: 'dark',
   },
 
-  css: ['./app/assets/css/main.css'],
+  compatibilityDate: '2025-07-15',
 
   vite: {
     plugins: [
@@ -28,9 +36,11 @@ export default defineNuxtConfig({
     ],
   },
 
-  devtools: {
-    enabled: true,
+  eslint: {
+    config: {
+      stylistic: {
+        semi: true,
+      },
+    },
   },
-
-  compatibilityDate: '2025-07-15',
 });

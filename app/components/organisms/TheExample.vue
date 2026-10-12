@@ -4,7 +4,7 @@ import pkg from '../../../package.json';
 const techStack = [
   {
     title: 'Nuxt',
-    version: pkg.devDependencies.nuxt.replace('^', ''),
+    version: pkg.dependencies.nuxt.replace('^', ''),
     description: 'The Intuitive Vue Framework.',
   },
   {
@@ -22,14 +22,27 @@ const techStack = [
     version: pkg.devDependencies['@nuxt/icon'].replace('^', ''),
     description: 'The Icon module for Nuxt.',
   },
+  {
+    title: 'Nuxt Color Mode',
+    version: pkg.devDependencies['@nuxtjs/color-mode'].replace('^', ''),
+    description: 'Auto-detecting dark and light mode switcher.',
+  },
+  {
+    title: 'Nuxt Fonts',
+    version: pkg.devDependencies['@nuxt/fonts'].replace('^', ''),
+    description: 'Plug-and-play custom web font optimization for Nuxt.',
+  },
 ];
 </script>
 
 <template>
   <div class="min-h-screen bg-neutral-950 text-neutral-100 font-sans selection:bg-neutral-800">
-    <div class="max-w-3xl mx-auto px-6 py-12">
+    <div class="max-w-5xl mx-auto px-6 py-12">
       <header class="mb-16">
-        <div class="w-12 h-12 bg-neutral-100 rounded-full mb-6" />
+        <div class="flex items-center justify-between mb-6">
+          <div class="w-12 h-12 bg-neutral-100 rounded-full" />
+          <AtomsColorMode />
+        </div>
         <h1 class="text-4xl font-light tracking-tight mb-4 text-neutral-100">
           Nuxt Starter
         </h1>
@@ -38,7 +51,7 @@ const techStack = [
         </p>
       </header>
 
-      <main class="grid gap-8 md:grid-cols-2">
+      <main class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         <MoleculesTechStackCard
           v-for="tech in techStack"
           :key="tech.title"

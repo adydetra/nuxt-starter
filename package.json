@@ -37,6 +37,7 @@
     "@iconify-json/line-md": "^1.2.16",
     "@nuxt/devtools": "^3.4.2",
     "@nuxt/eslint": "^1.17.0",
+    "@nuxt/fonts": "^1.0.1",
     "@nuxt/icon": "^2.5.1",
     "@nuxtjs/color-mode": "^4.0.1",
     "eslint": "^10.12.0"

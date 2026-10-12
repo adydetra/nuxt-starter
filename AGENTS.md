@@ -1,6 +1,6 @@
 # Agent Guide
 
-Nuxt 4 starter template with Tailwind CSS v4, Nuxt Color Mode, Nuxt Icon, and atomic design components.
+Nuxt 4 starter template with Tailwind CSS v4, Nuxt Fonts, Nuxt Color Mode, Nuxt Icon, and atomic design components.
 
 Read only the document needed:
 - `docs/architecture.md`: Nuxt 4 `app/` directory structure, atomic design components, modules, and routing.
@@ -11,7 +11,7 @@ Read only the document needed:
 
 ## Source Map
 
-- `nuxt.config.ts`: Nuxt 4 configuration, modules registration (`@nuxtjs/color-mode`, `@nuxt/icon`, `@nuxt/devtools`), and Tailwind CSS Vite plugin.
+- `nuxt.config.ts`: Nuxt 4 configuration, modules registration (`@nuxt/eslint`, `@nuxt/fonts`, `@nuxt/icon`, `@nuxtjs/color-mode`), and Tailwind CSS Vite plugin.
 - `app/app.vue`: root Nuxt application layout and page wrapper.
 - `app/pages/index.vue`: index route rendering showcase organisms.
 - `app/components/atoms/ColorMode.vue`: atomic dark/light mode toggle with Iconify icons.
@@ -19,7 +19,7 @@ Read only the document needed:
 - `app/components/molecules/TechStackCard.vue`: molecule displaying tech stack information and links.
 - `app/components/organisms/TheExample.vue`: organism combining spotlight card, tech stack items, and theme toggle.
 - `app/assets/css/main.css`: Tailwind CSS v4 entry point and dark mode style overrides.
-- `eslint.config.mjs`: ESLint flat configuration powered by `@antfu/eslint-config`.
+- `eslint.config.mjs`: ESLint flat configuration powered by `@nuxt/eslint` module.
 - `package.json`: scripts and dependency declarations.
 
 ## Invariants
@@ -28,7 +28,7 @@ Read only the document needed:
 - Use Vue 3 Composition API with `<script setup lang="ts">`.
 - Use Atomic Design principles for components (`atoms/`, `molecules/`, `organisms/`).
 - Maintain dark/light mode support using `@nuxtjs/color-mode` with Tailwind `class` or `@variant dark`.
-- Adhere to `@antfu/eslint-config` standards (`bun run lint`).
+- Adhere to `@nuxt/eslint` standards (`bun run lint`).
 
 ## Change Workflow
 

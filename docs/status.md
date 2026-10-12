@@ -8,8 +8,9 @@ Current state, supported features, and technical notes for `nuxt-starter`.
 - **Tailwind CSS v4**: Native Vite integration via `@tailwindcss/vite`.
 - **Dark Mode Support**: Reactive color mode switcher with system preference detection.
 - **Icon Support**: Integrated `@nuxt/icon` with animated Line-MD icons.
+- **Font Optimization**: Automated self-hosted web fonts via `@nuxt/fonts`.
 - **Atomic Components**: Sample atomic structure (`atoms`, `molecules`, `organisms`).
-- **Code Standards**: Configured with `@antfu/eslint-config`.
+- **Code Standards**: Configured with `@nuxt/eslint` module.
 
 ## Roadmap
 

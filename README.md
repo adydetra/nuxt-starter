@@ -10,6 +10,8 @@ This Nuxt 4 Starter is a robust foundation for web development projects. It prov
 - [x] [Tailwind CSS](https://tailwindcss.com/)
 - [x] [Nuxt Color Mode](https://nuxt.com/modules/color-mode)
 - [x] [Icon](https://nuxt.com/modules/icon)
+- [x] [Nuxt ESLint](https://eslint.nuxt.com/)
+- [x] [Nuxt Fonts](https://fonts.nuxt.com/)
 
 ---
 

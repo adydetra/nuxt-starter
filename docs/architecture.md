@@ -21,6 +21,8 @@ app/
 
 ## Modules & Ecosystem
 
+- **`@nuxt/eslint`**: Project-aware ESLint flat configuration module with ESLint Stylistic integration.
+- **`@nuxt/fonts`**: Plug-and-play web font optimization and self-hosting with fallback metrics generation.
 - **`@nuxtjs/color-mode`**: Manages system/light/dark mode classes on the root HTML element.
 - **`@nuxt/icon`**: Iconify integration rendering SVG icons on-demand (`@iconify-json/line-md`).
 - **`@nuxt/devtools`**: Local developer tooling and inspection bar.

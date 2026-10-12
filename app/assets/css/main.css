@@ -5,3 +5,11 @@
 }
 
 @custom-variant dark (&:where(.dark, .dark *));
+ 
+html {
+  background-color: var(--color-neutral-50, #fafafa);
+}
+
+html.dark {
+  background-color: var(--color-neutral-950, #0a0a0a);
+}
